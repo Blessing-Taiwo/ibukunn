@@ -1,0 +1,47 @@
+body {
+    background-image: linear-gradient(#97beeb, #b1e9ea, #c6b1ef, #efb7dc);
+    text-align: center;
+    font-family: serif;
+    background-repeat: no-repeat;
+}
+
+h1, h2 {
+    color: #3D2C8D;
+    text-shadow: 1px 0px black;
+}
+
+p {
+    text-align: center;
+}
+
+.button, .button-reset {
+    margin: 5px 5px;
+    padding: 5px 5px;
+    border: thin solid #3D2C8D;
+    background-color: #EEEEEE;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.button:hover, .button-reset:hover {
+    background: #97beeb;
+    border: 1px medium blue;
+    color: black;
+}
+
+#div3 {
+    padding: 20px;
+    border: 10px outset #c6b1ef;
+    border-radius: 25px;
+    margin: 40px;
+}
+
+#div2 {
+    padding: 10px;
+}
+
+#about-me {
+    padding: 45px;
+}
+

@@ -14,6 +14,7 @@ p {
     text-align: center;
 }
 
+/* button and button hover */
 .button, .button-reset {
     margin: 5px 5px;
     padding: 5px 5px;
@@ -30,6 +31,7 @@ p {
     color: black;
 }
 
+/* magin and padding for divs */
 #div3 {
     padding: 20px;
     border: 10px outset #c6b1ef;
@@ -45,3 +47,63 @@ p {
     padding: 45px;
 }
 
+/* nav and nav hover */
+nav a {
+    width: 20%;
+    justify-content: space-evenly;
+    margin: auto;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.yt:hover {
+    color: #000000;
+    background: lightcoral;
+    border: 1px medium;
+    border-radius: 5px;
+}
+
+.twt:hover {
+    color: #000;
+    background: skyblue;
+    border: 1px medium;
+    border-radius: 5px;
+}
+
+.wht:hover {
+    color: #000000;
+    background: seagreen;
+    border: 1px medium;
+    border-radius: 5px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.blog:hover {
+    color: #000000;
+    background: salmon;
+    border: 1px medium;
+    border-radius: 5px;
+}
+
+.gp:hover {
+    color: #000000;
+    background: royalblue;
+    border: 1px medium;
+    border-radius: 5px;
+}
+
+.about a {
+    color: black;
+    text-decoration: none;
+    border: transparent;
+}
+
+.about:hover {
+    color: purple;
+    text-decoration: wavy;
+    border-bottom: #3D2C8D;
+}
